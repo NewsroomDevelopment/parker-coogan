@@ -1,4 +1,13 @@
 @import "styles/spectate";
 
 // Uncomment the following line before publishing a News story
-// @import "styles/news-ellipsis";
+@import "styles/news-ellipsis";
+
+@media (max-width: 760px) {
+    header {
+        transform: translateY(50%) !important;
+    }
+    #headline {
+        max-width:100% !important;
+    }
+}
